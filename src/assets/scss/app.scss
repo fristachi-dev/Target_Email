@@ -1,0 +1,143 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+
+.columns, p, h1, h2, h3, h4, h5 {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    color: #333 !important;
+}
+
+a {
+    color: #333 !important;
+    font-size: 12px;
+}
+
+p {
+    color: white !important;
+    max-width: 320px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+h2 {
+    color: white !important;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 350px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 19px;
+}
+
+h5 {
+    //font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    padding-bottom: 8px !important;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+span {
+    font-size: 14px;
+}
+
+
+.nav {
+
+    .logo img {
+        padding: 10px 0 !important;
+        width: 34px !important;
+    } 
+
+    a {
+        font-size: 14px;
+    }
+    
+    .nav-menu {
+        background: #F7F7F7;
+
+        .menu-item {
+            font-size: 14px;
+            line-height: 16px;
+            padding-top: 13px;
+            padding-bottom: 13px;
+        }
+    }       
+}
+
+.break {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+.columns {
+    //border: 1px solid red;
+}
+
+.blue {
+    background: #DFECF5;
+}
+
+.patio h5{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.button {
+    margin-bottom: 0 !important;
+
+    a {
+        line-height: 24px;
+    }
+}
+
+.games a {
+    background: #2199e8;
+    border-radius: 0 !important;
+}
+
+.puzzle a {
+    background: #e3d109;
+    border-radius: 0 !important;
+}
+
+.footer {
+    background: #CC0000;
+}
+
+.footer .columns {
+    background: #CC0000;
+    padding: 12px !important;
+
+    h5 {
+        color: white !important;
+        padding-bottom: 0 !important;
+        margin-left: 4px !important;
+    }
+
+    h4 a{
+        border: 2px solid white;
+        color: white !important;
+        padding: 6px !important;
+        
+    }
+
+    h4 {
+        margin-top: 8px !important;
+        margin-right: 8px !important;
+    }
+}
